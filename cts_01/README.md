@@ -120,14 +120,14 @@ function solution(num1, num2) {
 }
 ```
 문제점     
+```
 type number에 string이 들어가는 경우도 있기 때문에, 
 소수점 이하를 절삭하여 정수 값을 return하려는 목적으로 
 Math.floor 대신에 parseInt를 사용해서는 안 된다고함.   
 
 (parsInt | MDN)    
 parseInt는 BigInt 구문을 Number로 반환하므로 정확도를 잃습니다. 마지막 n 문자를 무시하기 때문입니다.
-
-<br>
+```
 
 정답 풀이 
 ```
